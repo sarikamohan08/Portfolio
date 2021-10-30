@@ -12,13 +12,13 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="asset/icons/apple-touch-icon.png"
+      href="assest/icons/emoji.jpg"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="asset/icons/favicon-32x32.png"
+      href="assest/icons/emoji.jpg"
     />
 
     <!-- Animate CSS CDN -->
@@ -45,7 +45,7 @@
       <!-- Hero Section -->
       <section class="hero" id="about">
         <img
-          src="assest/images/image1.jpg"
+          src="assest/images/sarika.jpg"
           alt="jane-doe"
           loading="lazy"
           class="hero-img"
@@ -187,17 +187,149 @@ class="icon icon-card"
         </div>
       </section>
       <!-- Projects section -->
-
+      <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img
+              src="assest/images/mask_detection.jpg"
+              alt="mask_detection"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Mask Detection</h3>
+            <p class="project-details">
+              This project helps to find out whether the person is wearing mask or not using Object Detection techinques 
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assest/images/face.jpg"
+              alt="Automatic Attendence System"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Automatic Attendence System</h3>
+            <p class="project-details">
+                Implemented Automatic Attendence System using FastRCNN  which is complete end to end where  user can register and snapshots
+                will be taken by web cam and it automatically gets trained and stored in database and again when the new user comes it automatically 
+                detects the person 
+            </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+          <div class="project-container project-card">
+            <img
+              src="assest/images/bot.png"
+              alt="greeny-earth"
+              loading="lazy"
+              class="project-pic"
+            />
+            <h3 class="project-title">Weather Bot</h3>
+            <p class="project-details">
+              Chatbot which tells the weather of any  places  around globe and it was integrated both with telegram and website
+             </p>
+            <a href="#" target="_blank" class="project-link">Check it Out</a>
+          </div>
+        </div>
+      </section>
       <!-- Contact section -->
-
+      <section class="contact" id="contact">
+        <h2>Get In Touch With Me</h2>
+        <div class="contact-form-container">
+          <div class="contact-form">
+            <form action="https://formspree.io/f/xyylngw" method="POST">
+              <div class="form-control">
+                <label for="name">Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  name="sender-name"
+                  placeholder="Enter Your Name"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="sender-email"
+                  placeholder="Enter Your Email"
+                  class="input-field"
+                  required
+                />
+              </div>
+              <div class="form-control">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  cols="60"
+                  rows="10"
+                  placeholder="Enter Your Message"
+                  name="message"
+                  class="input-field"
+                  required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
       <!-- Social accounts - Fixed to the right -->
-
+      <div class="socials">
+        <a href="#" target="_blank"
+          ><img
+            src="assest/icons/twitter.gif"
+            alt="Twitter"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="assest/icons/insta.gif"
+            alt="Instagram"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img
+            src="assest/icons/linkedin.gif"
+            alt="Linkedin"
+            loading="lazy"
+            class="socicon"
+        /></a>
+        <a href="#" target="_blank"
+          ><img src="assest/icons/github.gif" alt="Github" class="socicon"
+        /></a>
+    </div>
       <!-- Scroll to top -->
-
+      <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assest/icons/scroll up.gif"
+        class="socicon up-arrow"
+        alt="scroll-up"
+    /></i>
       <!-- Footer section -->
+      <footer>
+        <p class="copy">&copy; Copyright 2021</p>
+        <p class="copy">
+          Built with &#x2661; by
+          <a href="https://twitter.com/SarikaMohanraj" target="_blank"
+            >Sarika Mohanraj 😇</a
+          >
+        </p>
+  </footer>
 
       <!-- Website scripts -->
-      <script src="assets/js/app.js"></script>
+      <script src="assest/js/app.js"></script>
 
       <!-- Ion icons scripts -->
       <script
